@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include calender_app *.css
+recursive-include calender_app *.csv
+recursive-include calender_app *.html
+recursive-include calender_app *.ico
+recursive-include calender_app *.js
+recursive-include calender_app *.json
+recursive-include calender_app *.md
+recursive-include calender_app *.png
+recursive-include calender_app *.py
+recursive-include calender_app *.svg
+recursive-include calender_app *.txt
+recursive-exclude calender_app *.pyc
